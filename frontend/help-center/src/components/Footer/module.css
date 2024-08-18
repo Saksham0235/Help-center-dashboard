@@ -1,0 +1,52 @@
+.footer {
+  width: 98.9vw;
+  background-color: black;
+  display: flex;
+  color: white;
+  height: 400px;
+  border-radius: 20px;
+  /* padding: 20px; */
+}
+
+.div {
+  width: 14vw;
+  height: 15rem;
+  margin:5rem auto 0 auto;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.65rem;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+}
+.paras {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.div2 {
+  margin-top: 1rem;
+}
+h2 {
+  font-weight: bolder;
+
+  font-size: 22px;
+}
+.logo {
+  background: rgb(141, 139, 139);
+  width: 4rem;
+  height: 4rem;
+  border-radius: 20px;
+}
+
+.logodiv {
+  width: 14vw;
+  height: 12rem;
+  flex-direction: column;
+  line-height: 1.65rem;
+  display: flex;
+  margin: 11rem auto 0 auto;
+}
