@@ -9,6 +9,7 @@
 
 .left{
     width: 20vw;
+    max-width: 60vw;
     display: flex;
     color: white;
     margin-left: 4rem;
@@ -33,4 +34,25 @@
     width: 10rem;
     height: 2rem;
     font-size: 17px;
+}
+
+
+
+@media (min-width: 1024px) {
+    .left{
+        width: 40vw;
+    }
+}
+
+@media (max-width:890px)
+{
+    .nav{
+        width: auto;
+    }
+    .left{
+        width: auto;
+    }
+    .right{
+        width: auto;
+    }
 }

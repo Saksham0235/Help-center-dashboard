@@ -17,7 +17,7 @@ app.use(express.json());
 app.use('/api',Routes)
 
 
-app.get('/ping',(req,res)=>{
+app.get('/',(req,res)=>{
     res.status(201).send('<h1>Server is running !')
 })
 
